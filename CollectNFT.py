@@ -2,7 +2,7 @@ import requests
 import json
 import shutil
 
-url = "https://api.opensea.io/api/v1/assets?owner=0xb0439622f93f7349d6307c56a32b0d5aa42b7940&order_direction=desc&offset=0&limit=20"
+url = "https://api.opensea.io/api/v1/assets?owner={WALLET ADDRESS}&order_direction=desc&offset=0&limit=20"
 
 headers = {
 	"Accept": "application/json",
